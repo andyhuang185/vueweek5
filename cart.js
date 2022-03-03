@@ -17,7 +17,7 @@ const apiPath = "andy22";
     validateOnInput: true, // 調整為輸入字元立即進行驗證
     });
 
-const app = createApp({
+const app = Vue.createApp({
     data(){
         return{
             cartData : {},
